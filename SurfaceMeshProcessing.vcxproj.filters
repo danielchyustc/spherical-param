@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{d3afaa6d-e386-4758-b672-c686d942da0b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{754ddd46-9a21-4cf9-a600-c05c475abec8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="MeshViewer">
+      <UniqueIdentifier>{b9690461-3e9c-4ed8-8e0b-c7cb2e912c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{f299ca37-dbc9-41ae-8da1-8212567fabbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="MeshEdit">
+      <UniqueIdentifier>{96d5fd38-61e6-47d6-8194-8c9430f3f0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshEdit\Parameterization">
+      <UniqueIdentifier>{390a146f-0283-4d90-9c9d-c09964d8ff2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshEdit\Parameterization\Planar">
+      <UniqueIdentifier>{cf0002bb-b458-4788-ab9f-a287198aede0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshEdit\Parameterization\Spherical">
+      <UniqueIdentifier>{26a8c42e-687c-41b2-838b-42495db0ee0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshEdit\Segmentation">
+      <UniqueIdentifier>{88ce175f-9d48-4ca5-943a-8bbd79cdc751}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_surfacemeshprocessing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_surfacemeshprocessing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_surfacemeshprocessing.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="surfacemeshprocessing.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshViewer\MainViewerWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainViewerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainViewerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshViewer\InteractiveViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InteractiveViewerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InteractiveViewerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshViewer\MeshViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeshViewerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeshViewerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshViewer\QGLViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QGLViewerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QGLViewerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDefinition.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MeshParamWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MeshParamWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshParamWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\MeshEditor.cpp">
+      <Filter>MeshEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\MinSurf.cpp">
+      <Filter>MeshEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Parameterization.cpp">
+      <Filter>MeshEdit\Parameterization</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\GaussMap.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SphericalParam.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SAQP.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SphericalNoFlip.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\PardisoSolver.cpp">
+      <Filter>MeshEdit\Parameterization</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Planar\PlanarParam.cpp">
+      <Filter>MeshEdit\Parameterization\Planar</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Planar\Progressive.cpp">
+      <Filter>MeshEdit\Parameterization\Planar</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SSLIMRight.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SSLIMLeft.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SAPN.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\SAKVF.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Segmentation\HierCluster.cpp">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Segmentation\Segmentation.cpp">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Segmentation\TriVoronoi.cpp">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Parameterization\Spherical\HybridSolver.cpp">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshEdit\Segmentation\VoronoiCube.cpp">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="surfacemeshprocessing.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="surfacemeshprocessing.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeshViewer\MainViewerWidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeshViewer\InteractiveViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeshViewer\MeshViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeshViewer\QGLViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MeshParamWidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshDefinition.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\MeshEditor.h">
+      <Filter>MeshEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\MinSurf.h">
+      <Filter>MeshEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\ParaEnum.h">
+      <Filter>MeshEdit\Parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Parameterization.h">
+      <Filter>MeshEdit\Parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\GaussMap.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SphericalParam.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SAQP.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SphericalNoFlip.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\PardisoSolver.h">
+      <Filter>MeshEdit\Parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Planar\PlanarParam.h">
+      <Filter>MeshEdit\Parameterization\Planar</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Planar\Progressive.h">
+      <Filter>MeshEdit\Parameterization\Planar</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SSLIMRight.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SSLIMLeft.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SAPN.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\SAKVF.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Segmentation\HierCluster.h">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Segmentation\Segmentation.h">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Segmentation\TriVoronoi.h">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Parameterization\Spherical\HybridSolver.h">
+      <Filter>MeshEdit\Parameterization\Spherical</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshEdit\Segmentation\VoronoiCube.h">
+      <Filter>MeshEdit\Segmentation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
